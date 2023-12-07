@@ -8,7 +8,7 @@
 #include <queue>
 #include <stack>
 using namespace std;
-int main() 
+int main()
 { 
     // Input vector 
     std::vector<int> v{ 10, 20, 30, 30, 30, 40, 50 }; 
