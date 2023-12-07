@@ -15,6 +15,7 @@
         "stack": "cpp",
         "deque": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "cmake.configureOnOpen": true
 }
 
