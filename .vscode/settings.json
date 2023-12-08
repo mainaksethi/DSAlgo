@@ -13,7 +13,8 @@
         "set": "cpp",
         "string_view": "cpp",
         "stack": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "__split_buffer": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "cmake.configureOnOpen": true
