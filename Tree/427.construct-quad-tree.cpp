@@ -36,6 +36,13 @@ public:
         bottomRight = _bottomRight;
     }
 };
+
+*
+* Learnings => 
+* 1. Mistake which i did is not giving start_offset 
+*    while increasing the pointer.
+* 2. 
+* 
 */
 
 #include <iostream>
