@@ -3,7 +3,12 @@
  * Learnings: 
  * 1. Inorder traversal of binary search tree.
  * 2. Track the previous node for binary search tree.
- * 
+ * For previous node: 
+ *  => For right child either parent or 
+ *      right-most node of left sub-tree.
+ *  => For left child, its right_most node of 
+ *     left subtree or first parent having tree 
+ *     as right child.
  */
 
 #include <iostream>
@@ -31,7 +36,9 @@ public:
         ans[1]->val = val;
     }
 
-    TreeNode* recover(TreeNode* root, vector<TreeNode*> &ans, TreeNode* parent) {
+    TreeNode* recover(TreeNode* root, 
+            vector<TreeNode*> &ans, 
+            TreeNode* parent) {
         if (root == NULL) {
             return parent;
         }
