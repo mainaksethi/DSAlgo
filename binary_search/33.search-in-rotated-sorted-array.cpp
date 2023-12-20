@@ -29,7 +29,8 @@ using namespace std;
 * 
 * Learning 2: 
 * In ciruclar scenarios use % array.size to avoid array offset issues.
-* 
+* Careful in equality conditions.
+* Careful in edge scenarios where array is not sorted.
 */
 
 class Solution {
