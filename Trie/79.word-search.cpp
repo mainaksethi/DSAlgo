@@ -5,6 +5,7 @@
  * 1. Interesting Problem storing strings in trie and then
  * parsing the 2-d array.
  * 2. Store more information in trie node like word.
+ * 3. Tricky recursion since parentNode of Trie is dummy.
  * 
  */
 
