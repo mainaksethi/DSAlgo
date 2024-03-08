@@ -8,6 +8,16 @@
  */
 
 // @lc code=start
+#include <iostream>
+#include <string>
+#include <vector>
+#include <unordered_set>
+#include <set>
+#include <unordered_map>
+#include <map>
+#include <queue>
+#include <stack>
+using namespace std;
 typedef struct Node {
     int index;
     int value;

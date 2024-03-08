@@ -76,7 +76,7 @@ public:
                         }
                         if (isValid(grid, visited, row, col-1)) {
                             q2.push(Node(row, col-1));
-                            visited[row][col-1] = true;                            
+                            visited[row][col-1] = true;
                         }
                     }
                     q.swap(q2);
