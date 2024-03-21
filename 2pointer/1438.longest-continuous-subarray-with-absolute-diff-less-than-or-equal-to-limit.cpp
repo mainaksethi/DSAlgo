@@ -4,9 +4,16 @@
 */
 class Solution {
 public:
+    
+    struct comp {
+        bool operator()(const int &a, const int &b ) const {
+            return a > b;
+        }
+    };
+
     int longestSubarray(vector<int>& nums, int limit) {
         multiset<int> minElements;
-        multiset<int, greater<int>> maxElements;
+        multiset<int, comp> maxElements;
         int start = 0, end = 0;
         int ans = 0;
 
