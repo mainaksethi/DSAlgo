@@ -12,7 +12,7 @@ using namespace std;
  * Type: Contiguous Sequence Stack
  * Thinking : 
  * 1. Come up with basic solution as largest rectangle with histogram as height. O(n^2)
- * 2. Contiguous things ideates towards stack with some elimination criteria 
+ * 2. Contiguous things ideates towards stack with some eliminatio n criteria 
  *  we can come up with O(n) approach.
  * 3. Final Solution: 
  * Left to Right (Symmetric for Right To Left)

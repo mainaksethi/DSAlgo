@@ -9,6 +9,16 @@
  */
 
 // @lc code=start
+#include <iostream>
+#include <string>
+#include <vector>
+#include <unordered_set>
+#include <set>
+#include <unordered_map>
+#include <map>
+#include <queue>
+#include <stack>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
